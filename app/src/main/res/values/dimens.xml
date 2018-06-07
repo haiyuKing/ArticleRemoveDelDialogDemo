@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ==================确认取消对话框（alertdialog）================== -->
+    <!-- 对话框的圆角角度 -->
+    <dimen name="alert_dialog_confirm_corners">5dp</dimen>
+    <!-- 对话框的整体外边距 -->
+    <dimen name="alert_dialog_confirm_margin">30dp</dimen>
+</resources>

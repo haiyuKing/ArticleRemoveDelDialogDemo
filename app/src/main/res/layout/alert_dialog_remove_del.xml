@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 首页界面的正文图集回收、删除操作对话框布局文件 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/alert_dialog_confirm_bg"
+    android:layout_marginLeft="@dimen/alert_dialog_confirm_margin"
+    android:layout_marginRight="@dimen/alert_dialog_confirm_margin"
+    >
+
+    <!-- 标题区域 -->
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text=""
+        android:textColor="#9e9e9e"
+        android:textSize="14sp"
+        android:padding="10dp"/>
+
+    <!-- 回收、删除操作区域 -->
+    <LinearLayout
+        android:id="@+id/layout_remove_del"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/remove_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="回收"
+            android:textColor="#212121"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/alert_recovery_dialog_btn"
+            android:drawablePadding="10dp"/>
+
+        <TextView
+            android:id="@+id/del_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="删除"
+            android:textColor="#212121"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/alert_del_dialog_btn"
+            android:drawablePadding="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
